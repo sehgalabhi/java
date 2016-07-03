@@ -3,12 +3,10 @@ package com.java.jta;
 import javax.transaction.xa.Xid;
 
 public class MyXid implements Xid {
-	protected int formatId;
-	protected byte gtrid[];
-	protected byte bqual[];
 
-	public MyXid() {
-	}
+	protected byte[] bqual;
+	protected byte[] gtrid;
+	protected int formatId;
 
 	public MyXid(int formatId, byte gtrid[], byte bqual[]) {
 		this.formatId = formatId;
@@ -25,7 +23,7 @@ public class MyXid implements Xid {
 	@Override
 	public int getFormatId() {
 		// TODO Auto-generated method stub
-		return formatId;
+		return 0;
 	}
 
 	@Override

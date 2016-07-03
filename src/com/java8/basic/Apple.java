@@ -13,6 +13,14 @@ public class Apple {
 		this.weight = weight;
 		this.color = color;
 	}
+	
+	public Apple() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Apple(int weight){
+		this.weight = weight;
+	}
 
 	public int getWeight() {
 		return weight;
