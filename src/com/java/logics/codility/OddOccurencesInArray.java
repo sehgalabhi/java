@@ -30,19 +30,7 @@ public class OddOccurencesInArray {
 	}*/
 
 	public static void main(String[] args) {
-		//System.out.println((int)Math.ceil(a)
-		int Y=85, X=10, D=30;
-		int minSteps =0;
-	        if(Y!=X){
-	            
-	           BigDecimal b =BigDecimal.valueOf((Y-X)/D);
-	           if(b.floatValue() %1 !=0){
-	                minSteps = b.intValue()+1;   
-	           } else{
-	               minSteps = b.intValue();
-	           }
-	        }
-	       System.out.println(minSteps);
+	
 	        
 	        
 		int[] A = {9,3,9,3,9,7,9};
